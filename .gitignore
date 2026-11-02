@@ -1,0 +1,18 @@
+# Build output (regenerate with build.ps1 / make_art.ps1)
+out/
+res/
+art/
+
+# Signed / aligned artifacts
+*.apk
+*.idsig
+*.apk.idsig
+
+# Keystore material (signing uses %USERPROFILE%\.android\debug.keystore)
+*.keystore
+*.jks
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+*.swp
